@@ -1,3 +1,23 @@
+# v0.1.5 (Mon Jun 15 2020)
+
+#### ⚠️ Pushed to `master`
+
+- Merge branch 'master' of https://github.com/Favo-App/design (edmo.lima@aiyuapp.com.br)
+- chore(commitlint): add tool commitlint (edmo.lima@aiyuapp.com.br)
+- refactor text-field (edmo.lima@aiyuapp.com.br)
+
+#### 🔩 Dependency Updates
+
+- Bump @testing-library/jest-dom from 4.2.4 to 5.10.1 [#5](https://github.com/Favo-App/design/pull/5) ([@dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+- Bump @testing-library/react from 9.5.0 to 10.2.1 [#6](https://github.com/Favo-App/design/pull/6) ([@dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+
+#### Authors: 2
+
+- [@dependabot-preview[bot]](https://github.com/dependabot-preview[bot])
+- Edmo Lima (edmo.lima@aiyuapp.com.br)
+
+---
+
 # v0.1.4 (Mon Jun 15 2020)
 
 #### 🐛 Bug Fix
