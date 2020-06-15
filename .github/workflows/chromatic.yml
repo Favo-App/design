@@ -1,0 +1,20 @@
+name: "Chromatic"
+on:
+  push
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - run: |
+        yarn
+    - run: |
+        yarn build
+    - run: |
+        yarn build-storybook
+    - uses: chromaui/action@v1
+      with: 
+        projectToken: 3m0hqrloncf
+        token: ${{ secrets.GITHUB_TOKEN }}
+        storybookBuildDir: storybook-static
