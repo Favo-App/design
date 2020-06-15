@@ -61,7 +61,7 @@
     "lint-staged": "^10.2.10",
     "node-fetch": "^2.6.0",
     "prettier": "^2.0.5",
-    "react-scripts": "3.3.0",
+    "react-scripts": "3.4.1",
     "sort-package-json": "^1.44.0"
   },
   "peerDependencies": {
