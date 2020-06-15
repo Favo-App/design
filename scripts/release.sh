@@ -8,7 +8,7 @@ if [ ! -z "$VERSION" ]; then
   auto changelog
 
   ## Publish Package
-  npm version $VERSION -m "Bump version to: %s [skip ci]"
+  npm version $VERSION -m "chore(design): Bump version to: %s [skip ci]"
   npm publish --access public
 
   ## Create GitHub Release
