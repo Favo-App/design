@@ -1,3 +1,15 @@
+# v0.1.3 (Mon Jun 15 2020)
+
+#### 🐛 Bug Fix
+
+- finish chromatic (edmo.lima@aiyuapp.com.br)
+
+#### Authors: 1
+
+- Edmo Lima (edmo.lima@aiyuapp.com.br)
+
+---
+
 # v0.1.2 (Mon Jun 15 2020)
 
 #### 🐛 Bug Fix
