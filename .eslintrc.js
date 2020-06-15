@@ -1,4 +1,7 @@
 module.exports = {
   root: true,
-  extends: ['@storybook/eslint-config-storybook']
+  extends: [
+    'plugin:react/recommended',
+    'airbnb'
+  ],
 }
