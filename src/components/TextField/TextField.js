@@ -1,3 +1,3 @@
 import React from 'react'
 
-export const TextField = () => <div>Example</div>
+export const TextField = () => <div>TextField</div>
