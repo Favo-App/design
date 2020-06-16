@@ -1,5 +1,5 @@
 import React from 'react'
-import { Alert as MUIAlert, MUIAlertTitle } from '@material-ui/lab'
+import { Alert as MUIAlert, AlertTitle as MUIAlertTitle } from '@material-ui/lab'
 import useStyles from './Alert.style'
 
 const Alert  = ({
