@@ -1,6 +1,7 @@
 {
   "name": "@favoapp/design",
   "version": "0.1.5",
+  "license": "ISC",
   "main": "dist/index.js",
   "scripts": {
     "build": "babel src -d dist --extensions \".js,.jsx,.ts,.tsx\" --ignore \"**/*.test.js\" --ignore \"**/*.stories.js\"",
