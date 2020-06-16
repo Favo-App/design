@@ -11,7 +11,8 @@
     "lint:js": "cross-env NODE_ENV=production eslint --cache --cache-location=.cache/eslint --ext .js,.jsx,.html,.ts,.tsx,.mjs --report-unused-disable-directives",
     "lint:package": "sort-package-json",
     "release": "dotenv yarn build && npx sort-package-json && ./scripts/release.sh",
-    "storybook": "start-storybook -p 6006"
+    "storybook": "start-storybook -p 6006",
+    "test": "react-scripts test"
   },
   "husky": {
     "hooks": {
