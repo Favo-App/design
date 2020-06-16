@@ -12,6 +12,15 @@ export const theme = createMuiTheme({
       "main": favoTokens.color.$purple,
       "contrastText": favoTokens.color.$white
     },
+    "success": {
+      "main": favoTokens.alert.$success,
+    },
+    "eror": {
+      "main": favoTokens.alert.$error,
+    },
+    "warning": {
+      "main": favoTokens.alert.$warning,
+    },
     "typography": { 
       "button":{
         "fontWeight": 500,
