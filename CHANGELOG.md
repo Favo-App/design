@@ -1,3 +1,15 @@
+# v0.1.9 (Tue Jun 16 2020)
+
+#### ⚠️ Pushed to `master`
+
+- fix(components): bug export component theme (edmo.lima@aiyuapp.com.br)
+
+#### Authors: 1
+
+- Edmo Lima (edmo.lima@aiyuapp.com.br)
+
+---
+
 # v0.1.8 (Tue Jun 16 2020)
 
 #### ⚠️ Pushed to `master`
