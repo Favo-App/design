@@ -1,3 +1,27 @@
+# v0.1.8 (Tue Jun 16 2020)
+
+#### ⚠️ Pushed to `master`
+
+- refactor(components): add proptypes in components (edmo.lima@aiyuapp.com.br)
+- chore(webapp): bump build (edmo.lima@aiyuapp.com.br)
+- feat(loader): add loader component (edmo.lima@aiyuapp.com.br)
+- Merge branch 'master' of https://github.com/Favo-App/design (edmo.lima@aiyuapp.com.br)
+- refactor(alert): add unit test (edmo.lima@aiyuapp.com.br)
+- refactor(button): add unit test (edmo.lima@aiyuapp.com.br)
+- feat(alert): add component alerts in design system (edmo.lima@aiyuapp.com.br)
+- feat(components): add new components in design system (edmo.lima@aiyuapp.com.br)
+
+#### 🔩 Dependency Updates
+
+- Bump @testing-library/user-event from 11.4.2 to 12.0.1 [#7](https://github.com/Favo-App/design/pull/7) ([@dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+
+#### Authors: 2
+
+- [@dependabot-preview[bot]](https://github.com/dependabot-preview[bot])
+- Edmo Lima (edmo.lima@aiyuapp.com.br)
+
+---
+
 # v0.1.7 (Tue Jun 16 2020)
 
 
