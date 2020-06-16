@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import { Alert as MUIAlert, AlertTitle as MUIAlertTitle } from '@material-ui/lab'
 import useStyles from './Alert.style'
 
@@ -17,6 +18,20 @@ const Alert  = ({
       {message}
     </MUIAlert>
   )
+}
+
+NotificationAlert.propTypes = {
+  onDismiss: PropTypes.func.isRequired,
+  title: PropTypes.string.isRequired,
+  fixed: PropTypes.bool,
+  message: PropTypes.string,
+  type: PropTypes.oneOf(['error', 'info', 'success', 'warning']),
+}
+
+NotificationAlert.defaultProps = {
+  fixed: false,
+  message: '',
+  type: 'success',
 }
 
 export default Alert
