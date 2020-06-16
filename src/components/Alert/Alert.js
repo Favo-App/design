@@ -3,12 +3,12 @@ import PropTypes from 'prop-types'
 import { Alert as MUIAlert, AlertTitle as MUIAlertTitle } from '@material-ui/lab'
 import useStyles from './Alert.style'
 
-const Alert  = ({
+const Alert = ({
   fixed,
   message,
   title,
   type,
-  onDismiss
+  onDismiss,
 }) => {
   const classes = useStyles({ fixed, message })
 
@@ -20,7 +20,7 @@ const Alert  = ({
   )
 }
 
-NotificationAlert.propTypes = {
+Alert.propTypes = {
   onDismiss: PropTypes.func.isRequired,
   title: PropTypes.string.isRequired,
   fixed: PropTypes.bool,
@@ -28,7 +28,7 @@ NotificationAlert.propTypes = {
   type: PropTypes.oneOf(['error', 'info', 'success', 'warning']),
 }
 
-NotificationAlert.defaultProps = {
+Alert.defaultProps = {
   fixed: false,
   message: '',
   type: 'success',
