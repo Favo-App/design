@@ -1,3 +1,18 @@
+# v0.1.6 (Tue Jun 16 2020)
+
+#### ⚠️ Pushed to `master`
+
+- chore(storybook): add envs (edmo.lima@aiyuapp.com.br)
+- chore(storybook): modify text bump version (edmo.lima@aiyuapp.com.br)
+- refactor(storybook): import/export definition (edmo.lima@aiyuapp.com.br)
+- Bump version (edmo.lima@aiyuapp.com.br)
+
+#### Authors: 1
+
+- Edmo Lima (edmo.lima@aiyuapp.com.br)
+
+---
+
 # v0.1.5 (Mon Jun 15 2020)
 
 #### ⚠️ Pushed to `master`
