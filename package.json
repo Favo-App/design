@@ -1,6 +1,6 @@
 {
   "name": "@favoapp/design",
-  "version": "0.1.11",
+  "version": "0.1.12",
   "license": "ISC",
   "main": "dist/index.js",
   "scripts": {
