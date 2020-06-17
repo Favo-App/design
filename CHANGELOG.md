@@ -1,3 +1,15 @@
+# v0.1.10 (Wed Jun 17 2020)
+
+#### ⚠️ Pushed to `master`
+
+- fix(components): fix export loader (edmo.lima@aiyuapp.com.br)
+
+#### Authors: 1
+
+- Edmo Lima (edmo.lima@aiyuapp.com.br)
+
+---
+
 # v0.1.9 (Tue Jun 16 2020)
 
 #### ⚠️ Pushed to `master`
