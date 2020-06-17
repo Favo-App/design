@@ -20,15 +20,15 @@ export const theme = createMuiTheme({
     },
     "warning": {
       "main": favoTokens.alert.$warning,
-    },
-    "typography": { 
-      "button":{
-        "fontWeight": 500,
-        "fontSize":"0.875rem",
-        "lineHeight": 1.75,
-        "letterSpacing": ({ variant }) => (variant === 'contained' ? 2.36 : 0.81),
-        "textTransform": "none"
-      }
+    }
+  },
+  "typography": { 
+    "button":{
+      "fontWeight": 500,
+      "fontSize":"0.875rem",
+      "lineHeight": 1.75,
+      "letterSpacing": ({ variant }) => (variant === 'contained' ? 2.36 : 0.81),
+      "textTransform": "none"
     }
   }
 })
