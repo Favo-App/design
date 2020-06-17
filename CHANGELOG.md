@@ -1,3 +1,15 @@
+# v0.1.12 (Wed Jun 17 2020)
+
+#### ⚠️ Pushed to `master`
+
+- fix(button): fix styled theme (edmo.lima@aiyuapp.com.br)
+
+#### Authors: 1
+
+- Edmo Lima (edmo.lima@aiyuapp.com.br)
+
+---
+
 # v0.1.11 (Wed Jun 17 2020)
 
 #### ⚠️ Pushed to `master`
