@@ -1,3 +1,23 @@
+# v0.1.11 (Wed Jun 17 2020)
+
+#### ⚠️ Pushed to `master`
+
+- Merge branch 'master' of https://github.com/Favo-App/design (edmo.lima@aiyuapp.com.br)
+- feat(textfield): add export password file (edmo.lima@aiyuapp.com.br)
+- feat(textfield): add textfield and password field (edmo.lima@aiyuapp.com.br)
+
+#### 🔩 Dependency Updates
+
+- build(deps-dev): bump @testing-library/user-event from 12.0.1 to 12.0.2 [#9](https://github.com/Favo-App/design/pull/9) ([@dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+- build(deps-dev): bump @storybook/preset-create-react-app from 3.0.1 to 3.1.1 [#8](https://github.com/Favo-App/design/pull/8) ([@dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+
+#### Authors: 2
+
+- [@dependabot-preview[bot]](https://github.com/dependabot-preview[bot])
+- Edmo Lima (edmo.lima@aiyuapp.com.br)
+
+---
+
 # v0.1.10 (Wed Jun 17 2020)
 
 #### ⚠️ Pushed to `master`
