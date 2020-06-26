@@ -7,8 +7,7 @@ const useStyles = makeStyles({
   root: {
     'width': '100vw',
     'display': 'flex',
-    'alignItems': 'center',
-    'textAlign': 'center',
+    'flexDirection': 'column',
     'margin': '0 auto',
     'justifyContent': 'center',
     'height': '100vh',
