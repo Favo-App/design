@@ -1,3 +1,38 @@
+# v0.1.13 (Fri Jun 26 2020)
+
+#### 🐛 Bug Fix
+
+- Feature/autocomplete [#31](https://github.com/Favo-App/design/pull/31) (nelson.rangel@aiyuapp.com)
+
+#### ⚠️ Pushed to `master`
+
+- chore(envs): modify itens (edmo.lima@aiyuapp.com.br)
+
+#### 🔩 Dependency Updates
+
+- build(deps-dev): bump @testing-library/react from 10.3.0 to 10.4.1 [#25](https://github.com/Favo-App/design/pull/25) ([@dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+- build(deps-dev): bump eslint-plugin-react-hooks from 2.5.1 to 4.0.4 [#24](https://github.com/Favo-App/design/pull/24) ([@dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+- build(deps-dev): bump @commitlint/cli from 8.3.5 to 9.0.1 [#23](https://github.com/Favo-App/design/pull/23) ([@dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+- build(deps-dev): bump eslint-config-airbnb from 18.1.0 to 18.2.0 [#22](https://github.com/Favo-App/design/pull/22) ([@dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+- build(deps-dev): bump @testing-library/user-event from 12.0.2 to 12.0.7 [#21](https://github.com/Favo-App/design/pull/21) ([@dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+- build(deps-dev): bump chromatic from 4.0.3 to 5.0.0 [#20](https://github.com/Favo-App/design/pull/20) ([@dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+- build(deps-dev): bump eslint-plugin-jsx-a11y from 6.2.3 to 6.3.1 [#19](https://github.com/Favo-App/design/pull/19) ([@dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+- build(deps-dev): bump @storybook/preset-create-react-app from 3.1.1 to 3.1.2 [#18](https://github.com/Favo-App/design/pull/18) ([@dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+- build(deps-dev): bump @babel/preset-env from 7.10.2 to 7.10.3 [#17](https://github.com/Favo-App/design/pull/17) ([@dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+- build(deps-dev): bump @babel/core from 7.10.2 to 7.10.3 [#16](https://github.com/Favo-App/design/pull/16) ([@dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+- build(deps-dev): bump @commitlint/config-conventional from 8.3.4 to 9.0.1 [#14](https://github.com/Favo-App/design/pull/14) ([@dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+- build(deps-dev): bump @babel/cli from 7.10.1 to 7.10.3 [#13](https://github.com/Favo-App/design/pull/13) ([@dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+- build(deps-dev): bump @testing-library/react from 10.2.1 to 10.3.0 [#11](https://github.com/Favo-App/design/pull/11) ([@dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+- build(deps-dev): bump lint-staged from 10.2.10 to 10.2.11 [#10](https://github.com/Favo-App/design/pull/10) ([@dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+
+#### Authors: 3
+
+- [@dependabot-preview[bot]](https://github.com/dependabot-preview[bot])
+- Edmo Lima (edmo.lima@aiyuapp.com.br)
+- Nélson Rangel ([@ranpa](https://github.com/ranpa))
+
+---
+
 # v0.1.12 (Wed Jun 17 2020)
 
 #### ⚠️ Pushed to `master`
