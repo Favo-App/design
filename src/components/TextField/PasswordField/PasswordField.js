@@ -7,6 +7,7 @@ import {
   InputBase,
   InputLabel,
   ThemeProvider,
+  Grid,
 } from '@material-ui/core'
 import Visibility from '@material-ui/icons/Visibility'
 import VisibilityOff from '@material-ui/icons/VisibilityOff'
@@ -20,10 +21,12 @@ const PasswordField = ({
   helperText,
   visibilityButtonAriaLabel,
   onChange,
+  helperComponent,
   ...props
 }) => {
   const [isPasswordVisible, togglePasswordVisibility] = useState(false)
 
+  const containerLabelClasses = style.containerLabel()
   const labelClasses = style.labelStyle()
   const inputClasses = style.inputStyle({ error })
   const inputAdornmentClasses = style.inputAdornmentStyle()
@@ -32,9 +35,14 @@ const PasswordField = ({
 
   return (
     <ThemeProvider theme={theme}>
-      <InputLabel htmlFor={id} classes={labelClasses}>
-        {label}
-      </InputLabel>
+      <Grid item justify='space-between' classes={containerLabelClasses}>
+        <InputLabel htmlFor={id} classes={labelClasses}>
+          {label}
+        </InputLabel>
+        {helperComponent && (
+          helperComponent
+        )}
+      </Grid>
       <InputBase
         id={id}
         aria-describedby={`${id}-helper-text`}
@@ -68,6 +76,7 @@ PasswordField.propTypes = {
   label: PropTypes.string.isRequired,
   onChange: PropTypes.func.isRequired,
   error: PropTypes.bool,
+  helperComponent: PropTypes.element,
   helperText: PropTypes.string,
   visibilityButtonAriaLabel: PropTypes.string,
 }
@@ -75,6 +84,7 @@ PasswordField.propTypes = {
 PasswordField.defaultProps = {
   error: false,
   helperText: '',
+  helperComponent: false,
   visibilityButtonAriaLabel: 'toggle password visibility',
 }
 

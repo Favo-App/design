@@ -15,6 +15,9 @@ export const DefaultPasswordField = () => (
     placeholder='************'
     onChange={action('Changed')}
     visibilityButtonAriaLabel='altera a visibilidade da senha'
+    helperComponent={
+      <a href='#'>Hello</a>
+    }
   />
 )
 

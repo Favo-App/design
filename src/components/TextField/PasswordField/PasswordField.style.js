@@ -19,6 +19,12 @@ export const theme = createMuiTheme({
   },
 })
 
+const containerLabel = makeStyles({
+  root: {
+    display: 'flex',
+  },
+})
+
 const labelStyle = makeStyles({
   root: {
     color: labelTextColor,
@@ -70,6 +76,7 @@ const helperTextStyle = makeStyles({
 })
 
 export default {
+  containerLabel,
   labelStyle,
   inputStyle,
   inputAdornmentStyle,
